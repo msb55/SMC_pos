@@ -1,0 +1,7 @@
+Questão 1:
+- Os algoritmos de poda de pool de classificadores usam um conjunto de validação (𝒱) para selecionar o melhor subconjunto de classificadores do pool original. Suponha três variantes do conjunto de validação: (a) o conjunto original 𝒱; (b) o conjunto 𝒱’ contendo apenas as instâncias difíceis (kDN > 0,5) de 𝒱; (c) o conjunto 𝒱’ contendo apenas as instâncias fáceis (kDN <= 0,5) de 𝒱. Escolha um algoritmo de poda de pool de classificadores e avalie seu desempenho (taxa de acerto, AUC, g-mean e f-measure) nos cenários (a), (b) e (c). Escolha uma medida de diversidade e compare os conjuntos de classificadores, antes e após a poda. Discuta os resultados.
+- Usar: Bagging para gerar o pool com 100 Perceptrons; 10-fold cross-validation (7-folds para treinar, 2-folds para validar, 1-fold para testar; combinar os classificadores usando voto majoritário; dois bancos de dados binários e com atributos numéricos do repositório Promise (http://promise.site.uottawa.ca/SERepository/datasets-page.html).
+
+DivP:
+- CAVALCANTI, George D.C. et al. Combining diversity measures for ensemble pruning. Pattern Recognition Letters, [S.L.], v. 74, p. 38-45, abr. 2016. Elsevier BV. http://dx.doi.org/10.1016/j.patrec.2016.01.029.
+- Código-fonte: https://darmiton.com/source-code/
